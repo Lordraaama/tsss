@@ -31,7 +31,7 @@ bot = Client(
 
 @bot.on_message(filters.command(["start"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text("**ℍɪɪ ┈━═.•°℞𝑜多їη 𝙷𝑜๏𝒹°•.═━┈😎 \n\n  𝔾ɪᴠᴇ /hacker ℂᴏᴍᴍᴀɴᴅ ᴛᴏ 𝔻ᴏᴡɴʟᴀᴏᴅ 𝔽ʀᴏᴍ ᴀ 𝕋ᴇ𝕩ᴛ ғɪʟᴇ.⚡️\n**")
+    editable = await m.reply_text("**ℍɪɪ ┈━═.•°ɧąƈƙɛཞ.𝙷𝑜๏𝒹°•.═━┈😎 \n\n  𝔾ɪᴠᴇ /hacker ℂᴏᴍᴍᴀɴᴅ ᴛᴏ 𝔻ᴏᴡɴʟᴀᴏᴅ 𝔽ʀᴏᴍ ᴀ 𝕋ᴇ𝕩ᴛ ғɪʟᴇ.⚡️\n**")
 
 
 @bot.on_message(filters.command("rukja"))
@@ -43,7 +43,7 @@ async def restart_handler(_, m):
 
 @bot.on_message(filters.command(["hacker"]))
 async def account_login(bot: Client, m: Message):
-    editable = await m.reply_text('**ℍɪɪ ┈━═.•°℞𝑜多їη 𝙷𝑜๏𝒹°•.═━┈😎 \n\n 𝕋𝕆 ᴅᴏᴡɴʟᴏᴀᴅ ᴀ ᴛxᴛ ғɪʟᴇ 𝕤ᴇɴᴅ ʜᴇʀᴇ ⚡️**')
+    editable = await m.reply_text('**ℍɪɪ ┈━═.•°ɧąƈƙɛཞ. 𝙷𝑜๏𝒹°•.═━┈😎 \n\n 𝕋𝕆 ᴅᴏᴡɴʟᴏᴀᴅ ᴀ ᴛxᴛ ғɪʟᴇ 𝕤ᴇɴᴅ ʜᴇʀᴇ ⚡️**')
     input: Message = await bot.listen(editable.chat.id)
     x = await input.download()
     await input.delete(True)
@@ -189,7 +189,7 @@ async def account_login(bot: Client, m: Message):
                         time.sleep(e.x)
                         continue
                 else:
-                    Show = f"**⥥ 🄳🄾🅆🄽🄻🄾🄰🄳🄸🄽🄶⬇️⬇️... »**\n\n**Name »** `{name}\nQuality » {raw_text2}`\n\n**Url »** `{url}`\n\n🤖𝔹ᴏᴛ 𝕄ᴀᴅᴇ 𝔹ʏ ┈━═.•°℞𝑜多їη 𝙷𝑜๏𝒹°•.═━┈\n\n **𝔻𝕄 𝔽ᴏʀ 𝔹ᴜʏ 𝕋ʜɪ𝕤 𝔹ᴏᴛ** @TeamjaishriramBot"
+                    Show = f"**⥥ 🄳🄾🅆🄽🄻🄾🄰🄳🄸🄽🄶⬇️⬇️... »**\n\n**Name »** `{name}\nQuality » {raw_text2}`\n\n**Url »** `{url}`\n\n🤖𝔹ᴏᴛ 𝕄ᴀᴅᴇ 𝔹ʏ ┈━═.•°ɧąƈƙɛཞ. 𝙷𝑜๏𝒹°•.═━┈\n\n **𝔻𝕄 𝔽ᴏʀ 𝔹ᴜʏ 𝕋ʜɪ𝕤 𝔹ᴏᴛ** @xxyynnmm"
                     prog = await m.reply_text(Show)
                     res_file = await helper.download_video(url, cmd, name)
                     filename = res_file
